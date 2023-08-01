@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Provver Controladoria | Home</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="navigationbar">
+
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container-fluid">
+
+                <!-- logo -->
+              <a class="navbar-brand" id="logoprovver" href="#">
+                <img src="./ASSETS/Selo_Diamante_PQCRS2023.png" alt="logo pqc" class="logopqc">
+                <img src="./ASSETS/logo Provver.png" alt="logo provver" class="logoprovver">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Botões -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item mx-2">
+                    <a class="nav-link active" aria-current="page" href="home.html" id="homebutton"><span class="navbuttons">Home</span></a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" href="sobre.html" id="sobrebutton"><span class="navbuttons">Sobre</span></a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" aria-current="page" href="solucoes.html" id="solucoesbutton"><span class="navbuttons">Soluções</span></a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link" aria-current="page" href="contato.html" id="contatobutton"><span class="navbuttons">Contato</span></a>
+                  </li>
+                  <li class="nav-item mx-3">
+                    <button class="nav-link active" aria-current="page" href="#" id="ytbutton" onclick="functionteste()">
+                        <span class="navbuttons">
+                            <i class="bi bi-youtube"></i> Youtube
+                        </span>
+                    </button>
+                  </li>
+
+                </ul>
+
+                <!-- Area restrita  -->
+                <div class="arearestrita">
+                    <button type="button" class="buttondefault1" id="arearestritabutton">
+                        <span>Área restrita</span>
+                    </button>
+                </div>
+
+              </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="bannerhome">
+            <div class="container">
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+
+                        <div class="container">
+                            <div class="row mt-3">
+                                <div class="col d-flex justify-content-center mt-5">
+                                    <p class="fs-4 fontdefault mt-5 hover-orangered shadow">Soluções especializadas em</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center py-1">
+                                    <i class="bi bi-chevron-double-down fs-2 bannericon shadow"></i>
+                                </div>
+                            </div>
+                            <div class="row mb-4">
+                                <div class="col d-flex justify-content-center pt-3">
+                                    <p class="fontdefault fs-1 mb-5 hover-orangered shadow">CONTROLADORIA E GESTÃO</p>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                              <div class="col d-flex justify-content-center">
+                                <button type="button" class="downarrow" id="downarrow">
+                                  <i class="bi bi-arrow-down-circle-fill fs-1"></i>
+                                </button>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="sobrehome">
+            <div class="container">
+              <div class="row">
+                <div class="col d-flex justify-content-center">
+                  
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-8 col-md-6 col-lg-5 col-xl-4 d-flex justify-content-center">
+
+                        <div class="container">
+                          <div class="row px-5">
+                            <div class="col">
+                              <p class="sobrehometext fontdefault">
+                                <span class="sobrehomebold">INFORMAÇÃO EFICAZ,</span><br>nós podemos <span class="sobrehomebold fs-4">PROVVER.</span>
+                              </p>
+                            </div>
+                          </div>
+                          <div class="row px-5">
+                            <div class="col mt-3">
+                              <p>
+                                Para uma gestão eficaz, você ou sua empresa precisam de informações de qualidade com agilidade. 
+                                E para isto, nada melhor que contar com uma empresa especializada em informações gerenciais 
+                                para provê-las.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="row px-5">
+                            <div class="col">
+                              <button class="leiamais" type="button" id="leiamaisbutton">Leia mais</button>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="cardshome">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-6 col-lg-4">
+
+                <!-- servicos title  -->
+                <div class="container">
+                  <div class="row mt-5">
+                    <div class="col mt-5">
+                      <h1 class="servicostitle1 fontdefault">
+                        Principais
+                      </h1>
+                      <h1 class="servicostitle2 fontdefault">
+                        Serviços:
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-lg-8 d-none d-xxl-inline d-flex justify-content-end">
+                <img class="lineextralong" src="./ASSETS/line2.png" alt="line-extralong">
+              </div>
+              <div class="col-lg-8 d-none d-lg-inline d-xxl-none d-flex justify-content-end">
+                <img class="linelong" src="./ASSETS/line2.png" alt="line-long">
+              </div>
+              <div class="col-md-6 col-lg-8 d-none d-md-inline d-lg-none d-flex justify-content-end">
+                <img class="lineshort" src="./ASSETS/line2.png" alt="line-short">
+              </div>
+            </div>
+
+            <!-- cards  -->
+            <div class="row mt-5 mb-5">
+              <div class="col">
+
+                <div class="container">
+                  <div class="row">
+
+                    <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center mb-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./ASSETS/cards/1.png" class="card-img-top" alt="img1">
+                        <div class="card-body">
+                          <h5 class="card-title">Contabilidade</h5>
+                          <p class="card-text">Concepção, organização e manutenção dos sistemas de informações contábeis adequadas às estratégias de gestão.</p>
+                          <button class="buttondefault2" id="cardbutton1">Saiba mais</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center mb-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./ASSETS/cards/2.png" class="card-img-top" alt="img2">
+                        <div class="card-body">
+                          <h5 class="card-title">Análise de negócio</h5>
+                          <p class="card-text">Análise da performance dos negócios quando ao resultado econômico, fluxo de caixa, patrimônio, entre outros.</p>
+                          <button class="buttondefault2" id="cardbutton2">Saiba mais</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center mb-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./ASSETS/cards/3.png" class="card-img-top" alt="img3">
+                        <div class="card-body">
+                          <h5 class="card-title">Planejamento tributário</h5>
+                          <p class="card-text">Análise e acompanhamento periódico das opções tributárias, e escolha da melhor alternativa</p><br>
+                          <button class="buttondefault2" id="cardbutton3">Saiba mais</button>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-xl-3 d-flex justify-content-center mb-3">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./ASSETS/cards/4.png" class="card-img-top" alt="img3">
+                        <div class="card-body">
+                          <h5 class="card-title">Exigências legais</h5>
+                          <p class="card-text">Atendimento às obrigações relativas ao governo, tributos e legislação.</p><br>
+                          <button class="buttondefault2" id="cardbutton4">Saiba mais</button>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row pb-4">
+              <div class="col d-flex justify-content-center">
+                <button type="button" class="vertodosservicosbutton fontdefault fs-5" id="vertodosservicosbutton">Ver todos</button>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+
+        <section class="gestoreshome">
+          <div class="container">
+
+            <div class="row pt-4 pb-5 align-items-center">
+              <!-- title  -->
+              <div class="col d-flex justify-content-start col-12 col-md-6 col-lg-4 mt-5 mb-5">
+                <h1 class="fontdefault gestoresheader">GESTORES:</h1>
+              </div>
+
+              <!-- line  -->
+              <div class="col-lg-8 d-none d-xxl-inline d-flex justify-content-end">
+                <img class="lineextralong" src="./ASSETS/line3.png" alt="line-extralong"> 
+              </div>
+              <div class="col-lg-8 d-none d-lg-inline d-xxl-none d-flex justify-content-end">
+                <img class="linelong" src="./ASSETS/line3.png" alt="line-long">
+              </div>
+              <div class="col-md-6 d-none d-md-inline d-lg-none d-flex justify-content-end">
+                <img class="lineshort" src="./ASSETS/line3.png" alt="line-short">
+              </div>
+            </div>
+
+            <!-- content  -->
+            <div class="row mb-3">
+              <div class="col-6 col-xl-3 d-flex justify-content-center mb-5">
+
+                <div class="container">
+                  <div class="row mb-3">
+                    <div class="col d-flex justify-content-center">
+                      <img class="imggestores shadow" src="./ASSETS/cards/2.png" alt="teste">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <h4 class="fontdefault gestorestitle">Andréa reolon</h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-6 col-xl-3 d-flex justify-content-center mb-5">
+
+                <div class="container">
+                  <div class="row mb-3">
+                    <div class="col d-flex justify-content-center">
+                      <img class="imggestores shadow" src="./ASSETS/cards/2.png" alt="teste">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <h4 class="fontdefault gestorestitle">Cíntia graff</h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-6 col-xl-3 d-flex justify-content-center mb-5">
+
+                <div class="container">
+                  <div class="row mb-3">
+                    <div class="col d-flex justify-content-center">
+                      <img class="imggestores shadow" src="./ASSETS/cards/2.png" alt="teste">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <h4 class="fontdefault gestorestitle">Joacir reolon</h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-6 col-xl-3 d-flex justify-content-center mb-5">
+
+                <div class="container">
+                  <div class="row mb-3">
+                    <div class="col d-flex justify-content-center">
+                      <img class="imggestores shadow" src="./ASSETS/cards/2.png" alt="teste">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col d-flex justify-content-center">
+                      <h4 class="fontdefault gestorestitle">Maira lorandi</h4>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+
+            </div>
+
+            <!-- saiba mais  -->
+            <div class="row pb-5">
+              <div class="col d-flex justify-content-center mb-2">
+                <button type="button" class="buttondefault3 fontdefault fs-5" id="saibamaisgestores">Saiba mais</button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row pt-5 align-items-center">
+
+          <!-- form  -->
+          <div class="col-12 col-lg-6 pt-5">
+            <form id="newsletterform">
+              <div class="mb-3">
+                <label for="emailinput" class="form-label fontdefault">FAÇA O CADASTRO E RECEBA NOSSAS <span class="sobrehomebold">NOTÍCIAS POR E-MAIL:</span></label><br>
+                <br>
+                <input type="email" class="caixaemail" id="emailinput" placeholder="Escreva aqui" aria-describedby="emailHelp">
+              </div>
+              <button type="submit" class="vertodosservicosbutton fontdefault">Enviar</button>
+            </form>
+          </div>
+          <!-- logo provver -->
+          <div class="col-12 col-lg-6 d-none d-lg-inline">
+            <img src="./ASSETS/Selo_Diamante_PQCRS2023.png" alt="logo pqc" class="logopqc2">
+            <img src="./ASSETS/logo Provver.png" alt="logo provver" class="logoprovver2">
+          </div>
+        </div>
+
+        <div class="row align-items-end">
+
+          <!-- números  -->
+          <div class="col-12 col-lg-6">
+            <ul style="color: white;">
+              <li>
+                <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton1">
+                  <i class="bi bi-telephone fs-5"></i> +55 (54) 3028-8558
+                </button>
+              </li>
+              <li>
+                <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton2">
+                  <i class="bi bi-whatsapp"></i> +55 (54) 99268-5360
+                </button>
+              </li>
+              <li>
+                <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton3">
+                  <i class="bi bi-facebook"></i> Provver Controladoria
+                </button>
+              </li>
+              <li>
+                <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton4">
+                  <i class="bi bi-geo-alt"></i> Rua Duque de Caxias , 2496
+                  Madureira , Caxias do Sul - RS.
+                </button>
+              </li>
+            </ul>
+          </div>
+          <!-- all rights reserved  -->
+          <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end mt-5" style="color: white;">
+            <p class="fontdefault" id="allrightsreserved">© 2023 Provver Controladoria | Todos os direitos reservados</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/footer.js"></script>
+  </body>
+</html>

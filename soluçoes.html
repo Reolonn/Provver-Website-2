@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Provver Controladoria | Soluções</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="navigationbar">
+
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-md bg-white">
+            <div class="container-fluid">
+
+                <!-- logo -->
+                <a class="navbar-brand" id="logoprovver" href="#">
+                    <img src="./ASSETS/Selo_Diamante_PQCRS2023.png" alt="logo pqc" class="logopqc">
+                    <img src="./ASSETS/logo Provver.png" alt="logo provver" class="logoprovver">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Botões -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="home.html" id="homebutton"><span class="navbuttons">Home</span></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="sobre.html" id="sobrebutton"><span class="navbuttons">Sobre</span></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="solucoes.html" id="solucoesbutton"><span class="navbuttons">Soluções</span></a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="contato.html" id="contatobutton"><span class="navbuttons">Contato</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <button class="nav-link active" aria-current="page" href="#" id="ytbutton">
+                                <span class="navbuttons">
+                                    <i class="bi bi-youtube"></i> Youtube
+                                </span>
+                            </button>
+                        </li>
+                    </ul>
+                    
+                    <!-- Area restrita  -->
+                    <div class="arearestrita">
+                        <button type="button" class="buttondefault1" id="arearestritabutton">
+                            <span>Área restrita</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="headersols">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col d-flex justify-content-center mb-4 pt-5">
+                        <h1 class="fontdefault headersobre">Soluções</h1>
+                    </div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col d-flex justify-content-center mt-5 mb-5">
+                        <button class="btn" type="button" id="downarrowsols">
+                            <i class="bi bi-arrow-bar-down solsfirsticon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="serviçossols">
+            <div class="container">
+
+                <div class="row pt-4 pb-5">
+                    
+                    <div class="col-12 col-lg-4 d-flex justify-content-center" id="solcontabilidade">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-coin solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">Contabilidade</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Concepção, organização 
+                                        e manutenção de sistemas de informações 
+                                        contábeis adequadas às estratégias de gestão.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center" id="solanalise">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-bar-chart-line solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">ANÁLISE DOS NEGÓCIOS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Análise 
+                                        da performance dos negócios quanto ao resultado econômico, 
+                                        fluxo financeiro, gestão patrimonial, sistema de custeio e 
+                                        orçamento.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-pc-display-horizontal solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">TECNOLOGIA DE INFORMAÇÃO</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Assessoria 
+                                        no desenvolvimento e implantação de controles formais e 
+                                        sistemas informatizados, para suprir necessidades de 
+                                        informação.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4 pb-5">
+                    
+                    <div class="col-12 col-lg-4 d-flex justify-content-center" id="solplanejamento">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-piggy-bank solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">PLANEJAMENTO TRIBUTÁRIO</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Análise, 
+                                        definição e acompanhamento periódico das alternativas 
+                                        tributárias e escolha da melhor opção para a empresa, 
+                                        de acordo com seus objetivos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-person-workspace solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">EXIGÊNCIAS TRABALHISTAS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Execução dos 
+                                        procedimentos trabalhistas, com interação eletrônica, 
+                                        acompanhamento da legislação e orientação das equipes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-bank solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">EXIGÊNCIAS TRIBUTÁRIAS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Atendimento às 
+                                        obrigações tributárias, de forma integrada com os sistemas 
+                                        ERP e com aplicação de auditorias eletrônicas, bem como 
+                                        acompanhamento das mudanças na legislação.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4 pb-5">
+                    
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-file-earmark-check solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">OBRIGAÇÕES ACESSÓRIAS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Atendimento 
+                                        de obrigações acessórias conforme exigência legal, 
+                                        declarações informativas fiscais, arquivos eletrônicos, 
+                                        acompanhamento da legislação e orientação das equipes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-building solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">ASSESSORIA SOCIETÁRIA</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Constituição de 
+                                        empresas, cisões, fusões, incorporações, alterações e 
+                                        reestruturações societárias, além de acompanhamento 
+                                        periódico das obrigações inerentes.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-person-lines-fill solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">CONTROLADORIA PARA PESSOAS FÍSICAS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Organização 
+                                        financeira, exigências trabalhistas, controle do patrimônio 
+                                        e tributação do Imposto de Renda das Pessoas Físicas</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4 pb-5">
+                    
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-cone-striped solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">CONTROLADORIA NA CONSTRUÇÃO CIVIL</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Controles contábeis 
+                                        gerenciais aplicados à construção civil, análise do retorno 
+                                        dos investimentos, lucratividade por empreendimento, orçamento de 
+                                        obra, fluxo financeiro, inscrição e baixa de obras. Implantação e 
+                                        manutenção de controles de gestão para empresas da construção civil.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-person-check solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">E-SOCIAL</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Assessoria 
+                                        no mapeamento e melhoria dos processos trabalhistas, 
+                                        previdenciários, tributários, de segurança e medicina
+                                         do trabalho, organizando e sistematizando as informações, 
+                                         com auditoria rotineira e controle de envio e retorno de 
+                                         arquivos ao fisco. Disponibilização de infraestrutura para 
+                                         gestão de recursos humanos, com soluções em administração de 
+                                         pessoal, gestão de benefícios, segurança do trabalho e 
+                                         medicina ocupacional.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-file-earmark-text solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">AUDITORIA PREVENTIVA DE ARQUIVOS SPED</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Auditoria 
+                                        preventiva de consistência das informações geradas 
+                                        nos arquivos SPED's (EFD Contribuições, EFD ICMS/IPI, ECD e ECF), 
+                                        assessoria na solução de problemas e revisão dos processos 
+                                        tributários internos, validação periódica e sistemática dos 
+                                        arquivos. Assessoria no mapeamento, implantação e controle dos 
+                                        dados no Bloco K da EFD ICMS/IPI.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4 pb-5">
+                    
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-briefcase solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">GESTÃO EMPRESARIAL</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Assessoria 
+                                        no mapeamento e implementação de procedimentos de gestão 
+                                        da qualidade, com utilização de sistema gerenciador de 
+                                        processos. Implantação e manutenção de metodologia de gestão 
+                                        para micro e pequenas empresas, com fornecimento de software 
+                                        ERP. Auditoria e revisão rotineira dos processos de gestão, 
+                                        checagem da consistência e utilidade das informações produzidas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-cpu solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">INCENTIVO INOVAÇÃO TECNOLÓGICA</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Identificação 
+                                        de oportunidades para utilização do incentivo inovação 
+                                        tecnológica , assessoria nos controles e formatação dos 
+                                        projetos de inovação para aproveitamento do incentivo, e
+                                        respectiva prestação de contas ao Ministério da Ciência 
+                                        e Tecnologia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-wallet2 solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">CUSTOS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Assessoria 
+                                        na implantação e análises de metodologias de avaliação 
+                                        de preços e custos, margem de contribuição por produto, 
+                                        rentabilidade por cliente e região, ponto de equilíbrio 
+                                        e estratégias de lucratividade.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4 pb-5 mb-5">
+                    
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-people-fill solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">TREINAMENTO EMPRESARIAL</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Treinamento 
+                                        de equipes operacionais e diretivas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-file-bar-graph solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">HOLDINGS</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Organização 
+                                        patrimonial e societária mediante constituição de 
+                                        Holdings.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex justify-content-center">
+                        <div class="container">
+                            <div class="row rowsolsicons">
+                                <div class="col d-flex justify-content-center mb-2">
+                                    <button class="btn" type="button" onclick="contabilidadefunction()">
+                                        <i class="bi bi-currency-exchange solsicons"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row rowsolstitle">
+                                <div class="col d-flex justify-content-center mb-3">
+                                    <p class="text-center solstitles fontdefault fs-2">TERCEIRIZAÇÃO DO SETOR FINANCEIRO</p>
+                                </div>
+                            </div>
+                            <div class="row rowsolstext">
+                                <div class="col d-flex justify-content-center">
+                                    <p class="solstexts fontsecondary text-center">Terceirização 
+                                        das rotinas do setor financeiro, contas a pagar e a 
+                                        receber, fluxo de caixa, fechamentos financeiros, 
+                                        controle de inadimplência, origem e aplicação de 
+                                        recursos, manutenção de indicadores de gestão financeira.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row pt-5 align-items-center">
+  
+                <!-- form  -->
+                <div class="col-12 col-lg-6 pt-5">
+                    <form id="newsletterform">
+                        <div class="mb-3">
+                            <label for="emailinput" class="form-label fontdefault">FAÇA O CADASTRO E RECEBA NOSSAS <span class="sobrehomebold">NOTÍCIAS POR E-MAIL:</span></label><br>
+                            <br>
+                            <input type="email" class="caixaemail" id="emailinput" placeholder="Escreva aqui" aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="vertodosservicosbutton fontdefault">Enviar</button>
+                    </form>
+                </div>
+                <!-- logo provver -->
+                <div class="col-12 col-lg-6 d-none d-lg-inline">
+                    <img src="./ASSETS/Selo_Diamante_PQCRS2023.png" alt="logo pqc" class="logopqc2">
+                    <img src="./ASSETS/logo Provver.png" alt="logo provver" class="logoprovver2">
+                </div>
+            </div>
+  
+            <div class="row align-items-end">
+  
+                <!-- números  -->
+                <div class="col-12 col-lg-6">
+                    <ul style="color: white;">
+                        <li>
+                            <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton1">
+                                <i class="bi bi-telephone fs-5"></i> +55 (54) 3028-8558
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton2">
+                                <i class="bi bi-whatsapp"></i> +55 (54) 99268-5360
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton3">
+                                <i class="bi bi-facebook"></i> Provver Controladoria
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="footertexts fontdefault fs-5 mb-1" id="footerbutton4">
+                                <i class="bi bi-geo-alt"></i> Rua Duque de Caxias , 2496
+                                Madureira , Caxias do Sul - RS.
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <!-- all rights reserved  -->
+                <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end mt-5" style="color: white;">
+                    <p class="fontdefault" id="allrightsreserved">© 2023 Provver Controladoria | Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="./js/footer.js"></script>
+    <script src="./js/navbar.js"></script>
+    <script src="./js/solucoes.js"></script>
+  </body>
+
+</html>
