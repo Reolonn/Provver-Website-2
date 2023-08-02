@@ -116,9 +116,9 @@
     display: block;
     width: 100%;
 
-    background-color: rgb(45, 45, 45);
-    /* background: url(../ASSETS/backgrounds/backgrounds\ \(4\).png) bottom left;
-    background-size: cover; */
+    /* background-color: rgb(45, 45, 45); */
+    background: url(../ASSETS/backgrounds/1.png) bottom center;
+    background-size: cover;
     
     color: white;
 
@@ -153,13 +153,19 @@
     transition: 200ms;
 }
 .sobrehome{
-    background-color: whitesmoke;
-    /* background: url(../ASSETS/backgrounds/backgrounds\ \(5\).png) top left;
-    background-size: cover; */
+    /* background-color: whitesmoke; */
+    background: url(../ASSETS/backgrounds/2.png) bottom;
+    background-size: cover;
 }
 
 .cardshome{
-    background-color: rgb(255, 247, 242);
+    /* background-color: rgb(255, 247, 242); */
+    background: url(../ASSETS/backgrounds/3.png) bottom;
+    background-size: cover;
+
+    margin-top: -1px;
+    margin-bottom: -1px;
+
     color: black;
 }
 .servicostitle1{
@@ -194,7 +200,9 @@
     border: solid orangered 1px;
     font-weight: 500;
 
-    transition: 200ms;
+    padding: 5px 130px 5px 130px;
+
+    transition: 250ms;
 }
 .lineextralong{
     max-height: 150px;
@@ -212,18 +220,21 @@
     object-fit: cover;
 }
 .gestoreshome{
-    background-color: orangered;
+    /* background-color: orangered; */
+    background: url(../ASSETS/backgrounds/4.png);
 }
 .imggestores{
     border-radius: 100%;
 
     height: 200px;
+    width: 200px;
     object-fit: cover;
 
     transition: 200ms;
 }
 .imggestores:hover{
     height: 215px;
+    width: 215px;
 
     transition: 200ms;
 }
@@ -290,13 +301,32 @@
 
     transition: 150ms;
 }
+.sobrehomeimg{
+    height: 600px;
+    object-fit: cover;
+
+    border: none;
+    border-radius: 20px;
+
+    transition: 300ms;
+
+}
+.sobrehomeimg:hover{
+    height: 630px;
+
+    transition: 300ms;
+}
 
 .videosobre{
     width: 70vw;
     object-fit: cover;
 }
 .bannersobre{
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background: url(../ASSETS/backgrounds/sobre/1.png) bottom left;
+    background-size: cover;
+
+    padding-bottom: 20px;
 }
 .headersobre{
     text-transform: uppercase;
@@ -304,7 +334,12 @@
     font-weight: 400;
 }
 .readingsobre{
-    background-color: rgb(255, 211, 195);
+    /* background-color: rgb(255, 211, 195); */
+    background: url(../ASSETS/backgrounds/sobre/2.png) bottom left;
+    background-size: cover;
+
+    padding-bottom: 40px;
+    margin-top: -2px;
 }
 .readingsobretext1{
     margin-left: 100px;
@@ -360,10 +395,22 @@
     transition: 300ms;
 }
 .gestoressobre{
-    background-color: gray;
+    /* background-color: gray; */
+    background: url(../ASSETS/backgrounds/sobre/3.png);
+    background-size: cover;
 }
 .orangered{
     color: orangered;
+}
+
+.headersols{
+    background-color: rgb(252, 252, 252);
+    
+    text-transform: uppercase;
+    font-size: 70px;
+
+    padding-top: 15px;
+
 }
 .solsfirsticon{
     color: orangered;
@@ -400,7 +447,12 @@
     font-weight: 100;
 }
 .serviçossols{
-    background-color: white;
+    background-color: rgb(252, 252, 252);
+
+}
+.highlightsol{
+    text-decoration: underline;
+    font-weight: 500;
 }
 
 .faleconosco{
@@ -409,7 +461,7 @@
     font-size: 65px;
 
     margin-top: 120px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .forminputcontato{
@@ -450,6 +502,15 @@
     padding: 8px 12vw 8px 12vw;
 
     transition: 300ms;
+}
+
+.headercontato{
+    background: url(../ASSETS/backgrounds/contato/1.png);
+    background-size: cover;
+}
+.formcontato{
+    background: url(../ASSETS/backgrounds/contato/2.png) top right;
+    background-size: cover;
 }
 
 

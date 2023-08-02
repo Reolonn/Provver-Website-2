@@ -12,23 +12,30 @@ document.getElementById("vertodosservicosbutton").addEventListener("click", func
 });
 
 
+// cards 
+
 document.getElementById("cardbutton1").addEventListener("click", function(){
     window.location.href = "solucoes.html"
     sessionStorage.setItem("scrollcontabilidade", 1)
 });
+
 document.getElementById("cardbutton2").addEventListener("click", function(){
     window.location.href = "solucoes.html"
     sessionStorage.setItem("scrollanalise", 1)
 });
+
 document.getElementById("cardbutton3").addEventListener("click", function(){
     window.location.href = "solucoes.html"
     sessionStorage.setItem("scrollplanejamento", 1)
 });
+
 document.getElementById("cardbutton4").addEventListener("click", function(){
     window.location.href = "solucoes.html"
-    sessionStorage.setItem("scrollplanejamento", 1)
+    sessionStorage.setItem("scrollexigencias", 1)
 });
 
+
+// gestores 
 
 document.getElementById("saibamaisgestores").addEventListener("click", function(){
     window.location.href = "sobre.html"
